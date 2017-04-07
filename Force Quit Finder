@@ -1,0 +1,11 @@
+/* Used to to force quit and then restart Finder */
+
+// INSTRUCTIONS
+// Requires admin password, the “killall” command will work on any process you know the name of.
+// Just replace "Finder" with that process name, to restart you will need to know the process location
+
+//FORCE QUIT
+sudo killall Finder
+
+// RESTART
+open /System/Library/CoreServices/Finder.app
