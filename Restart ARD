@@ -1,0 +1,5 @@
+/* Run inside the UNIX command window of Remote Desktop to restart the ARD client */
+
+//INSTRUCTIONS
+//If it ask for user use root
+sudo /System/Library/CoreServices/RemoteManagement/ARDAgent.app/Contents/Resources/kickstart -restart -agent
