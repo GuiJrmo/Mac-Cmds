@@ -1,0 +1,11 @@
+/* ContributedA text based adventure hidden in every copy of emacs */
+
+//INSTRUCTIONS
+//Below are some helpful hints the rest you must figure out on your own
+  //help - Some background on the game, as well as basic commands and objectives.
+  //inventory - Tell you what you’re carrying.  
+  //save and restore - Saves and restores the game, so you can remember to go eat occasionally.  
+  //quit - Quit the game.
+  
+//Start Command
+emacs -batch -l dunnet
