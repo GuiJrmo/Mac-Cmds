@@ -1,0 +1,7 @@
+/* Used for fixing iCal calendar errors. Escpecailly useful for contact errors involving Exchange.*/
+
+//INSTRUCTIONS
+//Replace "User Name" with the users calendar cache you are attempting to remove
+
+cd ../../
+sudo rm /Users/"User Name"/Library/Calendars/Calendar\ Cache
