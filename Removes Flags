@@ -1,0 +1,6 @@
+/* Removes flags from an individual file */
+
+//INSTRUCTIONS
+//Replace "/path/to/file.xxx" with path to file this is most easily done by dragging it into terminal
+
+sudo chflags nouchg /path/to/file.xxx
