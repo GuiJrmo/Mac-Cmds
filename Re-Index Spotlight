@@ -1,0 +1,12 @@
+/* For re-indexing Spotlight for the entire machine */
+
+// INSTRUCTIONS
+// Run under root or admin account. 
+// You have to first disable it then re-enable it. 
+// It is best to wait a min or two before running enable command
+
+//DISABLE
+sudo mdutil -a -i off 
+
+//ENABLE
+sudo mdutil -a -i on 
