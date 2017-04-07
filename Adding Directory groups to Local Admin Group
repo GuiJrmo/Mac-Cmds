@@ -1,0 +1,10 @@
+/* Contributed by DR Smtih: Used to add groups from Open Directory or Active Directory to local admin group. */
+
+//INSTRUCTIONS
+//Run under admin or root account and must be joined to the appropriate directory.
+
+//Open Directory 
+sudo dseditgroup -o edit -a “group name” -t group admin
+
+//Active Directory
+sudo dseditgroup -o edit -a “DOMAIN\group name” -t group admin
