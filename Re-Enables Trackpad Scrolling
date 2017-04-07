@@ -1,0 +1,6 @@
+/* Re-enables normal tracked scrolling if it won’t scroll */
+
+// INSTRUCTIONS
+// Replace the ending number to get different behaviors, 1 = Regular, 2 = Natural
+
+defaults write -g com.apple.trackpad.scrollBehavior 2
