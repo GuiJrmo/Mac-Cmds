@@ -1,0 +1,7 @@
+/* This is used for resetting CUPS(Common Unix Printing System) */
+
+//Step 1
+sudo cp /etc/cups/cupsd.conf /etc/cups/cupsd.conf.old
+
+//Step 2
+sudo cp /etc/cups/cupsd.conf.default /etc/cups/cupsd.conf
