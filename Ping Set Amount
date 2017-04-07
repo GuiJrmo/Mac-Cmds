@@ -1,0 +1,7 @@
+/* Used to ping a set amount of times to pull and average response time */
+
+//INSTRUCTIONS
+//In the command, "ping -c 10 hostname” the number can be replaced with any quantity of 
+//pings and the hostname must be replaced with a hostname or an IP address.
+
+ping -c 10 hostname
